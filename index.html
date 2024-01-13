@@ -1,0 +1,55 @@
+<!-- problem Still to face
+1. Animation Duration 40:00(reference : video -codewith Harry) means animation of villen get faster when time passes -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="gameContainer">
+        <div class="copyright"><h4>This Game is dev by - @Abhishek</h4></div>
+        <button id="startbutton">Start</button>
+        <div class="gameOver">Game Over
+            <small>Refresh to restart , Do not Cheat Please ! </small>
+        </div>
+       
+
+        <img class="hero hero1" src="t1a.png" alt="">
+        <img class="hero hero2" src="T2a.png" alt="">
+        <img class="hero hero3" src="T3a.png" alt="">
+
+        <img class="villen villen1" src="T1b.png" alt="">
+        <img class="villen villen2" src="T2b.png" alt="">
+        <img class="villen villen3" src="T3b.png" alt="">
+
+
+        <button id="theme">Change Theme</button>
+        <button id="Character">Change Character</button>
+        <div id="scoreCount">Your Score :0
+        </div>
+
+    </div>
+    <video class="video video1" autoplay muted loop>
+        <source src="T1.mp4" type="video/mp4">
+    </video>
+    <video class="video video2" autoplay muted loop>
+        <source src="T2.mp4" type="video/mp4">
+    </video>
+    <video class="video video3" autoplay muted loop>
+        <source src="T3.mp4" type="video/mp4">
+    </video>
+    <script src="script.js"></script>
+</body>
+
+</html>
